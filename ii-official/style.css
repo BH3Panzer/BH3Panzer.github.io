@@ -15,7 +15,10 @@ h1
 	font-family: "Foundation Logo";
 	text-align: center;
 }
-
+.but
+{
+  text-align: center;
+}
 .button-1 {
   background-color: #411fef;
   border-radius: 100px;
