@@ -15,6 +15,22 @@ h1
 	font-family: "Foundation Logo";
 	text-align: center;
 }
+
+h1:before{
+  content:"Interstellar INFINTY";
+  position:absolute;
+  color:#1d122b;
+  top:50;
+  left:0;
+  width:0%;
+  overflow:hidden;
+  transition:all 0.2s;
+}
+
+h1:hover:before{
+  width:100%;
+}
+
 .but
 {
   text-align: center;
