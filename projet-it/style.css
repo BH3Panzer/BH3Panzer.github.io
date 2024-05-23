@@ -1,24 +1,40 @@
 .ti{
-    background-image: radial-gradient(circle, #040405, #169cf6);
-    text-align: center;
-    color: lightblue;
-    border-radius: 50px;
+  background-image: radial-gradient(circle, #040405, rgb(6, 122, 255));
+  text-align: center;
+  color: lightblue;
 }
+
+.image{
+  background-color: grey;
+  padding: 0px;
+  border: 3px ridge rgb(6, 122, 255);
+  width: 420px;
+  height: auto;
+  float: right;
+  box-shadow: inset 0px 0px 25px rgb(6, 122, 255);
+}
+
+.image img{
+  display: block;
+  width: 100%;
+  margin: 0px;
+}
+
 body{
-    background: grey;
-    color: #43e7fd;
+  background: grey;
+  color: #43e7fd;
 }
 
 h2{
-    text-align: center;
-    color: lightskyblue;
+  text-align: center;
+  color: lightskyblue;
 }
 
 button {
   width: 10em;
   position: relative;
   height: 3.5em;
-  border: 3px ridge #149CEA;
+  border: 3px ridge rgb(6, 122, 255);
   outline: none;
   background-color: grey;
   color: white;
@@ -58,5 +74,5 @@ button:hover::before, button:hover::after {
 }
 
 button:hover {
-  box-shadow: inset 0px 0px 25px #1479EA;
+  box-shadow: inset 0px 0px 25px rgb(6, 122, 255);
 }
