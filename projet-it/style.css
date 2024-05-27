@@ -1,7 +1,14 @@
 .ti{
   background-image: radial-gradient(circle, #040405, rgb(6, 122, 255));
+  border: solid rgb(6, 122, 255) 5px;
+  border-radius: 20px;
   text-align: center;
-  color: lightblue;
+  color: hwb(195 68% 10%);
+}
+
+.ti-text:hover{
+  color: rgb(6, 122, 255);
+  cursor: default;
 }
 
 .image{
@@ -12,17 +19,38 @@
   height: auto;
   float: right;
   box-shadow: inset 0px 0px 25px rgb(6, 122, 255);
+  border-radius: 20px;
 }
 
 .image img{
   display: block;
   width: 100%;
   margin: 0px;
+  border-radius: 20px;
 }
+
+.big-image{
+  background-color: grey;
+  padding: 0px;
+  border: 3px ridge rgb(6, 122, 255);
+  width: 100%;
+  height: auto;
+  float: center;
+  box-shadow: inset 0px 0px 25px rgb(6, 122, 255);
+  border-radius: 20px;
+}
+
+.big-image img{
+  display: block;
+  width: 100%;
+  margin: 0px;
+  border-radius: 20px;
+}
+
 
 body{
   background: grey;
-  color: #43e7fd;
+  color: lightskyblue;
 }
 
 h2{
