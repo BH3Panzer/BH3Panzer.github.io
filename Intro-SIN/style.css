@@ -8,11 +8,13 @@ body {
     background-color: #333333;
     color: lightgray;
     font-family: sans-serif;
+    font-size: 1.05em;
 }
 
 td {
     border: 1px dashed white;
     padding: 8px;
+    padding-left: 4px;
 }
 
 table {
@@ -21,4 +23,29 @@ table {
 
 .stats {
     background-color: black;
+    color: rgb(0, 255, 0);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8%;
+    font-family: ya;
+    font-size: 0.95em;
+}
+
+.tkt {
+    margin-top: 0.8em;
+    list-style-type: square;
+}
+
+a:visited {
+    color: #d00db0;
+}
+
+.rotimg {
+    transform: rotate(0deg);
+    transition-duration: 2s;
+}
+
+.rotimg:hover {
+    transform: rotate(3600deg);
+    transition-duration: 8s;
 }
