@@ -1,0 +1,30 @@
+@font-face {
+font-family: mapolice;
+src: url("Action_Comics.ttf");
+}
+
+#global {   /* conteneur qui permet de centre le site web */ 
+position:relative;
+margin: 0 auto;
+width:50%;
+padding:1em;
+border:0.1em solid #DCDAC2;
+background:#FCFAE6;
+border-radius:0.5em;
+}
+
+#anim {
+font-family: mapolice;
+text-align:center;
+animation: arcenciel 10s infinite;
+}
+
+@keyframes arcenciel {
+0% {color: red;}
+17% {color: yellow;}
+34% {color: green;}
+51% {color: cyan;}
+68% {color: blue;}
+85% {color: magenta;}
+100% {color: red;}
+}

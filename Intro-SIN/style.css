@@ -1,0 +1,24 @@
+@font-face {
+    font-family: ya;
+    src: url(www/Digital_Play_St.ttf);
+}
+
+
+body {
+    background-color: #333333;
+    color: lightgray;
+    font-family: sans-serif;
+}
+
+td {
+    border: 1px dashed white;
+    padding: 8px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.stats {
+    background-color: black;
+}

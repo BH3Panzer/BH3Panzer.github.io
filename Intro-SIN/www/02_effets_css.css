@@ -1,0 +1,21 @@
+#global {
+				position:relative;
+				margin: 0 auto;
+				width:266px;
+				border:1px dashed #DCDAC2;
+				border-radius:0.5em;
+			}
+			#anim {
+				width:266px;
+				height:266px;
+				padding:5px;
+			}
+			#anim img {
+				position:absolute;
+				animation: myanim ease-in-out infinite 20s;
+			}
+			#anim img:nth-of-type(1) {animation-delay: 15s;}
+			#anim img:nth-of-type(2) {animation-delay: 10s;}
+			#anim img:nth-of-type(3) {animation-delay: 5s;}
+			#anim img:nth-of-type(4) {animation-delay: 0s;}
+			@keyframes myanim { 0%, 20%, 100%  {opacity:1;} 25%, 95%{opacity:0;}}
